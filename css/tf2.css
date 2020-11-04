@@ -1,0 +1,102 @@
+.container {
+    display: inline-grid;
+
+    grid-template-areas: 
+        "header header header"
+        "content sidebar1 sidebar2"
+        "sidebar3 sidebar4 sidebar5"
+        "sidebar6 sidebar7 sidebar8"
+        "sidebar9 content content"
+        "footer footer footer";
+
+        height: 1000px;
+}
+#header
+{
+    grid-area: header;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+}
+#content
+{
+    grid-area: content;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+}
+#sidebar1
+{
+    grid-area: sidebar1;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#sidebar2
+{
+    grid-area: sidebar2;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#sidebar3
+{
+    grid-area: sidebar3;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#sidebar4
+{
+    grid-area: sidebar4;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#sidebar5
+{
+    grid-area: sidebar5;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#sidebar6
+{
+    grid-area: sidebar6;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#sidebar7
+{
+    grid-area: sidebar7;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#sidebar8
+{
+    grid-area: sidebar8;
+    align-content: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#sidebar9
+{
+    grid-area: sidebar9;
+    align-content: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#footer
+{
+    grid-area: footer;
+    align-content: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}

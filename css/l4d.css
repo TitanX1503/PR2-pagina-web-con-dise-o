@@ -1,0 +1,77 @@
+::backdrop
+{
+    color: darkgreen;
+}
+
+.container {
+    display: inline-grid;
+
+    grid-template-areas: 
+        "header header header"
+        "content1 content1 content1"
+        "content2 content2 content2"
+        "content3 content3 content3"
+        "content4 content4 content4"
+        "footer footer footer";
+
+        height: 1000px;
+}
+
+#img
+{
+    width: 150px;
+}
+
+#header 
+{
+    background-color: black;
+    grid-area: header;
+    text-align: center;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content1
+{
+    background-color: black;
+    grid-area: content1;
+    text-align: center;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content2
+{
+    background-color: black;
+    grid-area: content2;
+    text-align: center;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content3
+{
+    background-color: black;
+    grid-area: content3;
+    text-align: center;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content4
+{
+    background-color: black;
+    grid-area: content4;
+    text-align: center;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer
+{
+    background-color: black;
+    grid-area: footer;
+    text-align: center;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,56 @@
+.container {
+    display: inline-grid;
+
+    grid-template-areas: 
+        "header header header"
+        "content content1 content1"
+        "content1 content1 content1"
+        "content2 content2 content2"
+        "content2 content2 content2"
+        "content3 content3 content3"
+        "content3 content3 content3"
+        "footer footer footer";
+
+        height: 1000px;
+}
+
+.img
+{
+    width: 200px;
+}
+
+#header
+{
+    background-color: black;
+    grid-area: header;
+    text-align: center;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content1
+{
+    background-color: black;
+    grid-area: content1;
+    text-align: center;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content2
+{
+    background-color: black;
+    grid-area: content2;
+    text-align: center;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer
+{
+    background-color: orangered;
+    grid-area: header;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
